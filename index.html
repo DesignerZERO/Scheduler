@@ -334,10 +334,11 @@
             flex: 1;
             border-right: 1px solid #e5e8eb;
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
             justify-content: center;
             text-align: center;
+        
         }
 
         .date-column:last-child {
@@ -354,6 +355,7 @@
         .date-day {
             font-size: 11px;
             color: #666;
+            margin-left: 8px;
         }
 
         .date-column.today .date-number {
@@ -820,7 +822,7 @@
             </div>
 
             <!-- 하단 설정 -->
-            <div class="bottom-settings">
+            <!-- <div class="bottom-settings">
                 <div class="setting-group">
                     <div class="setting-label">진료명</div>
                     <input type="text" class="setting-input" placeholder="진료 내용 입력">
@@ -830,7 +832,7 @@
                     <button class="setting-btn">문턱하기</button>
                     <button class="setting-btn">저장하기</button>
                 </div>
-            </div>
+            </div> -->
         </div>
 
         <!-- 메인 스케줄 영역 -->
